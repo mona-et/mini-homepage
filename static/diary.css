@@ -1,0 +1,89 @@
+.contents-box{
+    position: relative;
+}
+.date-box{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    height: 3rem;
+
+    border: solid 1px #a9a9a9;
+
+    display: flex;
+    align-items: center;
+
+
+}
+.today{
+    flex: 0 0 2rem;
+    margin: 0 1rem;
+    text-align: center;
+    color: #3b87ab;
+    font-weight: 700;
+}
+.date-list {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.date {
+    flex: 0 0 1.5rem;
+    color: #707070;
+    cursor: pointer;
+    text-align: center;
+  }
+.color-red {
+	color: red;
+}
+
+.color-blue {
+  color: blue;
+}
+
+.scroll-box {
+    position: absolute;
+    margin-top: 4rem;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    overflow: auto;
+  }
+  .diary-box{
+      border: solid 1px #a9a9a9;
+      padding: 1rem 1rem 2rem;
+      margin-bottom: 1rem;
+  }
+  .diary-date{
+      color: #3b87ab;
+      margin-bottom: 1rem;
+  }
+  .diary-write{
+      text-align: center;
+  }
+
+  .button-box{
+      display: flex;
+      justify-content: center;
+
+  }
+  .diary-button{
+      margin-top: 1rem;
+      background: white;
+      color: white;
+      padding: 1rem;
+      cursor: pointer;
+
+
+      transition: 800ms ease all;
+      border: none;
+  }
+  .diary-button:hover{
+      background: rgb(136, 224, 3);
+      color: white;
+  }
+  #secret-box{
+      display: none;
+  }

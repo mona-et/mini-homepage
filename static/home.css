@@ -1,0 +1,52 @@
+.sub-title{
+    font-family: 'KOTRA_BOLD-Bold';
+    color: #9ac2ce;
+    font-size: 1rem;
+    border-bottom: 1px solid #a9a9a9;
+}
+/* 새소식 */
+.news-flex-box{
+    flex: 0.3;
+    display: flex;
+}
+    /* 새로운 게시물 */
+.up-news{
+    flex: 0.5;
+}
+.news-row{
+    display: flex;
+    margin: 3px 0;
+}
+.news-category{
+    padding: 0 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+    /* 메뉴 update */
+.up-menu{
+    flex: 0.5;
+}
+.menu-row{
+    display: flex;
+    border-bottom: 1px dashed grey;
+    margin: 3px 0;
+}
+.menu-item{
+    flex: 1;
+    text-align: center;
+}
+
+.category-photo {
+    border-radius: 6px;
+    background-color: #ffd3b4;
+}
+.category-diary{
+    border-radius: 6px;
+    background-color: #d5ecc2;
+}
+
+/* 미니룸 */
+.miniroom{
+    flex: 0.7;
+}

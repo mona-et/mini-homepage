@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2021 MINI HOMEPAGE</title>
+    <link rel="stylesheet" href="./static/font.css" />
+    <link rel="stylesheet" href="./static/layout.css" />
+    <link rel="stylesheet" href="./static/diary.css" />
+    <script src="https://kit.fontawesome.com/5e6f07f2da.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="bookcover">
+      <div class="bookdot">
+        <div class="page">
+           <!-- profile 영역 -->
+          <div class="profile-container">
+            <div class="mini-box profile-title">TODAY <span class="profile-today">813</span> | TOTAL 160409</div>
+
+            <div class="box profile-box kyobohand">
+              <div class="profile-image">
+                <img class="profile-image-img" src="./static/images/snowball.jpg"/>
+              </div>
+              <div class="profile-introduce">
+                내일은 분명히 더 행복해질 겁니다.
+              </div>
+              <div class="profile-username">에뜨왈별</div>
+              <div class="profile-dropdown">
+                <div class="dropdown-btn">
+                  <div class="dropdown-title">파도타기</div>
+                  <div class="triangle-down"></div>
+                </div>
+                <div class="dropdown-content">
+                  <a href="https://cafe.naver.com/codeuniv" target="_blank">코뮤니티로 가기</a>
+                  <a href="https://www.instagram.com/coding_comu/" target="_blank">인스타그램으로 가기</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        
+
+          <!-- contents(page) 영역 -->
+          <div class="contents-container">
+            <div class="mini-box contents-title">
+              <div class="contents-title-name">에뜨왈별의 미니홈피</div>
+              <div class="contents-title-url">https://url주소/나중에입력</div>
+            </div>
+
+            <div class="box contents-box">
+              <div class="date-box kyobohand">
+                <div class="today">06.10<br /> THU
+                </div>
+                <div class="date-list">
+                  <div class="date">1</div>
+                  <div class="date">2</div>
+                  <div class="date">3</div>
+                  <div class="date">4</div>
+                  <div class="date"><span class="color-blue">5</span></div>
+                  <div class="date"><span class="color-red">6</span></div>
+                  <div class="date">7</div>
+                  <div class="date">8</div>
+                  <div class="date">9</div>
+                  <div class="date">10</div>
+                  <div class="date">11</div>
+                  <div class="date"><span class="color-blue">12</span></div>
+                  <div class="date"><span class="color-red">13</span></div>
+                  <div class="date">14</div>
+                  <div class="date">15</div>
+                  <div class="date">16</div>
+                  <div class="date">17</div>
+                  <div class="date">18</div>
+                  <div class="date"><span class="color-blue">19</span></div>
+                  <div class="date"><span class="color-red">20</span></div>
+                  <div class="date">21</div>
+                  <div class="date">22</div>
+                  <div class="date">23</div>
+                  <div class="date">24</div>
+                  <div class="date">25</div>
+                  <div class="date"><span class="color-blue">26</span></div>
+                  <div class="date"><span class="color-red">27</span></div>
+                  <div class="date">28</div>
+                  <div class="date">29</div>
+                  <div class="date">30</div>
+                </div>
+              </div>
+              <div class="scroll-box">
+                <div class="diary-box kyobohand">
+                  <div class="diary-date">2020.06.08 화 19:52</div>
+                  <div class="diary-write">
+                    만나서 술을 조금 먹었는데<br />
+                    먹다보니 학교 생활에 대해 이야기가 나왔다.<br />
+                    서로 흑역사다 뭐다 등등 을 이야기하다가<br />
+                    나한테 있었던 하나의 사건이<br />
+                    친구의 입장에서 내가 생각 못한<br />
+                    비하인드가 있었고 이를 듣게 되었는데<br />
+                    되게 신기했다....
+                  </div>
+                </div>
+
+                <div class="diary-box kyobohand">
+                  <div class="diary-date">2020.06.07 월 17:48</div>
+                  <div class="diary-write">
+                    오랜만에 친구들을 만났다.<br />
+                    매년 방학때마다 짧게 국내여행을 다녀왔는데<br />
+                    2년 넘게 못가다보니 너무 힘들다는 이야기를 했다.<br />
+                    원래 1년에 2번 국내여행으로 힐링했는데...<br />
+                    못 가니 너무 답답하다...
+                  </div>
+                </div>
+
+                <div class="diary-box kyobohand">
+                  <div class="diary-date">2020.06.02 수 13:26</div>
+                  <div class="diary-write">
+                    공부하기 싫다...<br />
+                    자격증 공부 해야하는건 정말 잘 알지만<br />
+                    너무 너무 하기 싫다...<br />
+                    진짜 거짓말이 아니라<br />
+                    책만 펴도 잠이 온다...<br />
+                    검정색은 글씨요..하얀색은 종이...
+                  </div>
+                </div>
+
+                <div class="button-box " >
+                  <button class="diary-button kyobohand" onclick="getTextFile()"><i class="fas fa-lock"></i> 에뜨왈별의 비밀일기 보기</button>
+                </div>
+                <div class="diary-box kyobohand" id="secret-box">
+                  <div class="diary-date">에뜨왈별의 비밀일기</div>
+                  <div class="diary-write" id=secret-diary></div>
+                </div>
+
+                
+              </div>
+            </div>
+          </div>
+
+          <!-- menu 영역 -->
+          <div class="menu-container menu-box kyobohand">
+            <div class="menu-category"><a href="./home.html">home</a></div>
+            <div class="menu-category"><a href="./diary.html">다이어리</a></div>
+            <div class="menu-category"><a href="./photo.html">사진첩</a></div>
+            <div class="menu-category"><a href="./guest.html">방명록</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function getTextFile() {
+        var input = document.createElement("input");
+        input.type = "file";
+        input.accept = "text/plain";
+        input.onchange = function (event) {
+        processFile(event.target.files[0]);
+        };
+        input.click();
+      }
+
+      function processFile(file) {
+        var reader = new FileReader();
+        reader.readAsText(file, "utf-8");
+
+        reader.onload = function () {
+          document.getElementById("secret-diary").innerText = reader.result;
+          document.getElementById("secret-box").style.display = "block";
+        };
+      }
+    </script>
+    
+  </body>
+</html>
